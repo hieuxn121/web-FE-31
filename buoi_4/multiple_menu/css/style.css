@@ -1,18 +1,19 @@
 .menu {
     list-style: none;
     padding: 0;
-    background: yellow;
-    width: 530px;
-    height: 30px;
+    width: 505px;
+    /*height: 30px;*/
     line-height: 200%;
     border: 1px black solid;
 }
 .item {
     position: relative;
     left: 2px;
+    background: yellow;
 }
+
 .menu>li {
-    display: inline-block;
+    float: left;
     width: 100px;
     text-align: center;
     border-right: 1px black solid;
