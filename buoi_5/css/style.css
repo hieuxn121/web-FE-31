@@ -1,0 +1,118 @@
+ * {
+    font-family: arial;
+    font-size: 20px;
+ }
+ .container {
+    width: 50%;
+    border: 1px gray solid;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header, .center {
+    width: 80%;
+    margin: 0 auto; 
+    margin-top: 40px;
+}
+
+.header span {
+    font-size: 24px;
+}
+
+#close {
+    float: right;
+    color: gray;
+}
+
+.clear {
+    clear: both;
+}
+
+.header a{
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 200%;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#login_with_fb {
+    background: #538ac5;
+    margin-top: 50px;
+}
+
+#login_with_tw {
+    background: #5db1d3;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+.center input {
+    font-size: 20px;
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px #cdcdcd solid;
+    padding: 0 20px;
+    color: gray;
+}
+
+.center span {
+    margin-top: 10px;
+}
+
+.footer {
+    border-top: 1px gray solid;
+    width: 90%;
+    padding: 0 5%;
+    background: #f4f4f4;
+    margin-top: 50px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    margin-top: 20px;
+    float: right;
+}
+
+.btn {
+    font-size: 20px;
+    width: 70px;
+    height: 50px;
+    color: white;
+    background: #ba3535;
+    border: 1px #ba3535 solid;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

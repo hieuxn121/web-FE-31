@@ -1,0 +1,60 @@
+#myDiv, #div2, #div3, #div4 {
+    width: 300px;
+    height: 200px;
+}
+#myDiv {
+    border-width: 10px;
+    border-color: red;
+    border-style: dotted;
+    background: pink;
+    margin: 0 auto;
+    overflow: auto;
+
+}
+#div2, #div4 {
+    border: 1px blue solid;
+    background: yellow;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#div3 {
+    border: 1px green solid;
+    background: green;
+    position: fixed;
+    z-index: 10000;
+}
+.myDiv {
+    display: inline-block;
+}
+
+
+#myText {
+    padding: 20px 0px 0px 10px;
+}
+
+#myText:before{
+    content: "Hello ";
+    color: red;
+    font-size: 24px;
+}
+
+#myText:after {
+    content: " Coding school";
+    color: blue;
+}
+
+#div4 {
+    position: relative;
+    right: -100px;
+    z-index: 20;
+}
+#sub-div4 {
+    width: 100px;
+    height: 100px;
+    border: 1px red solid;
+    background: red;
+    position: absolute;
+    right: -10px;
+    bottom: 0px;
+    z-index: 40;
+}
