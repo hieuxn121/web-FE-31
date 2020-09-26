@@ -1,0 +1,73 @@
+* {
+    font-family: arial;
+}
+.item {
+    width: 25%;
+    box-sizing: border-box;
+    float: left;
+    padding: 0 5px;
+}
+.img {
+    position: relative;
+}
+.img img {
+    width: 100%;
+}
+.clear {
+    clear: both;
+}
+
+.box-name {
+    font-weight: bold;
+}
+
+.box-name .name{
+    font-size: 18px;
+}
+
+.box-name .position {
+    font-size: 13px;
+}
+.info {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.icon {
+    list-style: none;
+    padding: 0;
+}
+
+.icon li {
+    display: inline-block;
+    font-size: 24px;
+}
+
+.item:hover .info {
+    height: 100%;
+    transition: height 1s;
+}
+
+.info b, .info i {
+    color: #ff7100;
+}
+
+@media all and (min-width: 900px) {
+
+}
+
+@media all and (max-width: 899px) and (min-width: 480px) { /*ipad*/
+    .item {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 479px) {
+    .item {
+        width: 100%;
+    }
+}
