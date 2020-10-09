@@ -1,0 +1,14 @@
+table {
+
+}
+
+
+a {
+    color: red;
+    cursor: pointer;
+}
+
+.check {
+    background: green;
+    color: white;
+}
